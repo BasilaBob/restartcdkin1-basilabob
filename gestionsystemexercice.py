@@ -8,3 +8,5 @@ def new_user():
           print("Utiliser username '" + username + "'? (Y/N)")
           confirm = input().upper()
     os.system("sudo adduser " + username)
+
+new_user()
